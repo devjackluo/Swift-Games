@@ -1,0 +1,6 @@
+framework module Pods_NinjaboltTests {
+  umbrella header "Pods-NinjaboltTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

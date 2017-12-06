@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A4B01B8F172027BFB88DE8 /* Pods_DogShip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB743A70E3282A83734C7863 /* Pods_DogShip.framework */; };
+		1E3B4C85B573A444CD2025F0 /* Pods_DogShipTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01FADFD2CBBBCC942888159 /* Pods_DogShipTests.framework */; };
+		59203A3D1F10D5CE0096CACC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59203A3C1F10D5CE0096CACC /* iAd.framework */; };
+		59203A3F1F10E08D0096CACC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59203A3E1F10E08D0096CACC /* GoogleService-Info.plist */; };
+		59BABC291F04C5A70055B3A8 /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BABC281F04C5A70055B3A8 /* EndScene.swift */; };
+		59BABC2D1F04D2140055B3A8 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59BABC2C1F04D2140055B3A8 /* FireParticle.sks */; };
+		59E8060C1F049E0E0008FA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E8060B1F049E0E0008FA40 /* AppDelegate.swift */; };
+		59E806101F049E0E0008FA40 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59E8060F1F049E0E0008FA40 /* Actions.sks */; };
+		59E806121F049E0E0008FA40 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E806111F049E0E0008FA40 /* GameScene.swift */; };
+		59E806141F049E0E0008FA40 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E806131F049E0E0008FA40 /* GameViewController.swift */; };
+		59E806171F049E0E0008FA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E806151F049E0E0008FA40 /* Main.storyboard */; };
+		59E806191F049E0E0008FA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E806181F049E0E0008FA40 /* Assets.xcassets */; };
+		59E8061C1F049E0E0008FA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E8061A1F049E0E0008FA40 /* LaunchScreen.storyboard */; };
+		59E806271F049E0E0008FA40 /* DogShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E806261F049E0E0008FA40 /* DogShipTests.swift */; };
+		59E806321F049E0E0008FA40 /* DogShipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E806311F049E0E0008FA40 /* DogShipUITests.swift */; };
+		A890B0DCC1AD02C8EBC1700D /* Pods_DogShipUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A93710A3180A621761B138 /* Pods_DogShipUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59E806231F049E0E0008FA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E806001F049E0D0008FA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E806071F049E0E0008FA40;
+			remoteInfo = DogShip;
+		};
+		59E8062E1F049E0E0008FA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E806001F049E0D0008FA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E806071F049E0E0008FA40;
+			remoteInfo = DogShip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34E9D96B699889A09FB06862 /* Pods-DogShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogShip.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogShip/Pods-DogShip.release.xcconfig"; sourceTree = "<group>"; };
+		59203A3C1F10D5CE0096CACC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		59203A3E1F10E08D0096CACC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59BABC281F04C5A70055B3A8 /* EndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
+		59BABC2C1F04D2140055B3A8 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
+		59E806081F049E0E0008FA40 /* DogShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E8060B1F049E0E0008FA40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59E8060F1F049E0E0008FA40 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		59E806111F049E0E0008FA40 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		59E806131F049E0E0008FA40 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		59E806161F049E0E0008FA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59E806181F049E0E0008FA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59E8061B1F049E0E0008FA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59E8061D1F049E0E0008FA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E806221F049E0E0008FA40 /* DogShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E806261F049E0E0008FA40 /* DogShipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogShipTests.swift; sourceTree = "<group>"; };
+		59E806281F049E0E0008FA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E8062D1F049E0E0008FA40 /* DogShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E806311F049E0E0008FA40 /* DogShipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogShipUITests.swift; sourceTree = "<group>"; };
+		59E806331F049E0E0008FA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A93710A3180A621761B138 /* Pods_DogShipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogShipUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D0A0CB29EA6A89B1B68A83 /* Pods-DogShipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogShipTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogShipTests/Pods-DogShipTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB743A70E3282A83734C7863 /* Pods_DogShip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C129DBA6BBE0E7799B5D6A14 /* Pods-DogShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogShip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogShip/Pods-DogShip.debug.xcconfig"; sourceTree = "<group>"; };
+		C732ADFD8517E07FBD780B16 /* Pods-DogShipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogShipTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogShipTests/Pods-DogShipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D01FADFD2CBBBCC942888159 /* Pods_DogShipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogShipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B801129FB118D188EF8CB8 /* Pods-DogShipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogShipUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogShipUITests/Pods-DogShipUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F92F55A96DB36CEE1406ACE0 /* Pods-DogShipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogShipUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogShipUITests/Pods-DogShipUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59E806051F049E0E0008FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59203A3D1F10D5CE0096CACC /* iAd.framework in Frameworks */,
+				15A4B01B8F172027BFB88DE8 /* Pods_DogShip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E8061F1F049E0E0008FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3B4C85B573A444CD2025F0 /* Pods_DogShipTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E8062A1F049E0E0008FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A890B0DCC1AD02C8EBC1700D /* Pods_DogShipUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59E805FF1F049E0D0008FA40 = {
+			isa = PBXGroup;
+			children = (
+				59E8060A1F049E0E0008FA40 /* DogShip */,
+				59E806251F049E0E0008FA40 /* DogShipTests */,
+				59E806301F049E0E0008FA40 /* DogShipUITests */,
+				59E806091F049E0E0008FA40 /* Products */,
+				AB6C86FBC9DA6B7DC613890B /* Pods */,
+				7EE20DD9863F0072EEB24F40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59E806091F049E0E0008FA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59E806081F049E0E0008FA40 /* DogShip.app */,
+				59E806221F049E0E0008FA40 /* DogShipTests.xctest */,
+				59E8062D1F049E0E0008FA40 /* DogShipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59E8060A1F049E0E0008FA40 /* DogShip */ = {
+			isa = PBXGroup;
+			children = (
+				59E8060B1F049E0E0008FA40 /* AppDelegate.swift */,
+				59E8060F1F049E0E0008FA40 /* Actions.sks */,
+				59E806111F049E0E0008FA40 /* GameScene.swift */,
+				59BABC281F04C5A70055B3A8 /* EndScene.swift */,
+				59E806131F049E0E0008FA40 /* GameViewController.swift */,
+				59E806151F049E0E0008FA40 /* Main.storyboard */,
+				59E806181F049E0E0008FA40 /* Assets.xcassets */,
+				59E8061A1F049E0E0008FA40 /* LaunchScreen.storyboard */,
+				59203A3E1F10E08D0096CACC /* GoogleService-Info.plist */,
+				59E8061D1F049E0E0008FA40 /* Info.plist */,
+				59BABC2C1F04D2140055B3A8 /* FireParticle.sks */,
+			);
+			path = DogShip;
+			sourceTree = "<group>";
+		};
+		59E806251F049E0E0008FA40 /* DogShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				59E806261F049E0E0008FA40 /* DogShipTests.swift */,
+				59E806281F049E0E0008FA40 /* Info.plist */,
+			);
+			path = DogShipTests;
+			sourceTree = "<group>";
+		};
+		59E806301F049E0E0008FA40 /* DogShipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59E806311F049E0E0008FA40 /* DogShipUITests.swift */,
+				59E806331F049E0E0008FA40 /* Info.plist */,
+			);
+			path = DogShipUITests;
+			sourceTree = "<group>";
+		};
+		7EE20DD9863F0072EEB24F40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59203A3C1F10D5CE0096CACC /* iAd.framework */,
+				AB743A70E3282A83734C7863 /* Pods_DogShip.framework */,
+				D01FADFD2CBBBCC942888159 /* Pods_DogShipTests.framework */,
+				72A93710A3180A621761B138 /* Pods_DogShipUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB6C86FBC9DA6B7DC613890B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C129DBA6BBE0E7799B5D6A14 /* Pods-DogShip.debug.xcconfig */,
+				34E9D96B699889A09FB06862 /* Pods-DogShip.release.xcconfig */,
+				C732ADFD8517E07FBD780B16 /* Pods-DogShipTests.debug.xcconfig */,
+				76D0A0CB29EA6A89B1B68A83 /* Pods-DogShipTests.release.xcconfig */,
+				E4B801129FB118D188EF8CB8 /* Pods-DogShipUITests.debug.xcconfig */,
+				F92F55A96DB36CEE1406ACE0 /* Pods-DogShipUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59E806071F049E0E0008FA40 /* DogShip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E806361F049E0E0008FA40 /* Build configuration list for PBXNativeTarget "DogShip" */;
+			buildPhases = (
+				ED433CBAA3DAFF0B4E73B3E7 /* [CP] Check Pods Manifest.lock */,
+				59E806041F049E0E0008FA40 /* Sources */,
+				59E806051F049E0E0008FA40 /* Frameworks */,
+				59E806061F049E0E0008FA40 /* Resources */,
+				F74C36067524B5BFD35F8962 /* [CP] Embed Pods Frameworks */,
+				977BD783407ABC249D6791CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogShip;
+			productName = DogShip;
+			productReference = 59E806081F049E0E0008FA40 /* DogShip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59E806211F049E0E0008FA40 /* DogShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E806391F049E0E0008FA40 /* Build configuration list for PBXNativeTarget "DogShipTests" */;
+			buildPhases = (
+				8A788BD3ECF5801A7FE8A4AD /* [CP] Check Pods Manifest.lock */,
+				59E8061E1F049E0E0008FA40 /* Sources */,
+				59E8061F1F049E0E0008FA40 /* Frameworks */,
+				59E806201F049E0E0008FA40 /* Resources */,
+				CF384774F79B161120F361FF /* [CP] Embed Pods Frameworks */,
+				E6F1C284A96E0310FF11C6D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E806241F049E0E0008FA40 /* PBXTargetDependency */,
+			);
+			name = DogShipTests;
+			productName = DogShipTests;
+			productReference = 59E806221F049E0E0008FA40 /* DogShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59E8062C1F049E0E0008FA40 /* DogShipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E8063C1F049E0E0008FA40 /* Build configuration list for PBXNativeTarget "DogShipUITests" */;
+			buildPhases = (
+				15B50CD759C479747A6133BE /* [CP] Check Pods Manifest.lock */,
+				59E806291F049E0E0008FA40 /* Sources */,
+				59E8062A1F049E0E0008FA40 /* Frameworks */,
+				59E8062B1F049E0E0008FA40 /* Resources */,
+				7F32AFEFCD80885885D7335C /* [CP] Embed Pods Frameworks */,
+				9FC1559DBDF04F677366CE5E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E8062F1F049E0E0008FA40 /* PBXTargetDependency */,
+			);
+			name = DogShipUITests;
+			productName = DogShipUITests;
+			productReference = 59E8062D1F049E0E0008FA40 /* DogShipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59E806001F049E0D0008FA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zhaowen Luo";
+				TargetAttributes = {
+					59E806071F049E0E0008FA40 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4QV2382LDV;
+						ProvisioningStyle = Automatic;
+					};
+					59E806211F049E0E0008FA40 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BK589U6LR9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59E806071F049E0E0008FA40;
+					};
+					59E8062C1F049E0E0008FA40 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BK589U6LR9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59E806071F049E0E0008FA40;
+					};
+				};
+			};
+			buildConfigurationList = 59E806031F049E0D0008FA40 /* Build configuration list for PBXProject "DogShip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59E805FF1F049E0D0008FA40;
+			productRefGroup = 59E806091F049E0E0008FA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59E806071F049E0E0008FA40 /* DogShip */,
+				59E806211F049E0E0008FA40 /* DogShipTests */,
+				59E8062C1F049E0E0008FA40 /* DogShipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59E806061F049E0E0008FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E806171F049E0E0008FA40 /* Main.storyboard in Resources */,
+				59E806191F049E0E0008FA40 /* Assets.xcassets in Resources */,
+				59E8061C1F049E0E0008FA40 /* LaunchScreen.storyboard in Resources */,
+				59E806101F049E0E0008FA40 /* Actions.sks in Resources */,
+				59BABC2D1F04D2140055B3A8 /* FireParticle.sks in Resources */,
+				59203A3F1F10E08D0096CACC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E806201F049E0E0008FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E8062B1F049E0E0008FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B50CD759C479747A6133BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F32AFEFCD80885885D7335C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogShipUITests/Pods-DogShipUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A788BD3ECF5801A7FE8A4AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		977BD783407ABC249D6791CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogShip/Pods-DogShip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC1559DBDF04F677366CE5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogShipUITests/Pods-DogShipUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF384774F79B161120F361FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogShipTests/Pods-DogShipTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F1C284A96E0310FF11C6D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogShipTests/Pods-DogShipTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED433CBAA3DAFF0B4E73B3E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F74C36067524B5BFD35F8962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogShip/Pods-DogShip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59E806041F049E0E0008FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E806121F049E0E0008FA40 /* GameScene.swift in Sources */,
+				59E806141F049E0E0008FA40 /* GameViewController.swift in Sources */,
+				59BABC291F04C5A70055B3A8 /* EndScene.swift in Sources */,
+				59E8060C1F049E0E0008FA40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E8061E1F049E0E0008FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E806271F049E0E0008FA40 /* DogShipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E806291F049E0E0008FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E806321F049E0E0008FA40 /* DogShipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59E806241F049E0E0008FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E806071F049E0E0008FA40 /* DogShip */;
+			targetProxy = 59E806231F049E0E0008FA40 /* PBXContainerItemProxy */;
+		};
+		59E8062F1F049E0E0008FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E806071F049E0E0008FA40 /* DogShip */;
+			targetProxy = 59E8062E1F049E0E0008FA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59E806151F049E0E0008FA40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E806161F049E0E0008FA40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59E8061A1F049E0E0008FA40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E8061B1F049E0E0008FA40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59E806341F049E0E0008FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59E806351F049E0E0008FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59E806371F049E0E0008FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C129DBA6BBE0E7799B5D6A14 /* Pods-DogShip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QV2382LDV;
+				INFOPLIST_FILE = DogShip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.SpaceManiacGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		59E806381F049E0E0008FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E9D96B699889A09FB06862 /* Pods-DogShip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QV2382LDV;
+				INFOPLIST_FILE = DogShip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.SpaceManiacGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		59E8063A1F049E0E0008FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C732ADFD8517E07FBD780B16 /* Pods-DogShipTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BK589U6LR9;
+				INFOPLIST_FILE = DogShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.DogShip.DogShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogShip.app/DogShip";
+			};
+			name = Debug;
+		};
+		59E8063B1F049E0E0008FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D0A0CB29EA6A89B1B68A83 /* Pods-DogShipTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BK589U6LR9;
+				INFOPLIST_FILE = DogShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.DogShip.DogShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogShip.app/DogShip";
+			};
+			name = Release;
+		};
+		59E8063D1F049E0E0008FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B801129FB118D188EF8CB8 /* Pods-DogShipUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BK589U6LR9;
+				INFOPLIST_FILE = DogShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.DogShip.DogShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DogShip;
+			};
+			name = Debug;
+		};
+		59E8063E1F049E0E0008FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92F55A96DB36CEE1406ACE0 /* Pods-DogShipUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BK589U6LR9;
+				INFOPLIST_FILE = DogShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.DogShip.DogShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DogShip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59E806031F049E0D0008FA40 /* Build configuration list for PBXProject "DogShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E806341F049E0E0008FA40 /* Debug */,
+				59E806351F049E0E0008FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E806361F049E0E0008FA40 /* Build configuration list for PBXNativeTarget "DogShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E806371F049E0E0008FA40 /* Debug */,
+				59E806381F049E0E0008FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E806391F049E0E0008FA40 /* Build configuration list for PBXNativeTarget "DogShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E8063A1F049E0E0008FA40 /* Debug */,
+				59E8063B1F049E0E0008FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E8063C1F049E0E0008FA40 /* Build configuration list for PBXNativeTarget "DogShipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E8063D1F049E0E0008FA40 /* Debug */,
+				59E8063E1F049E0E0008FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59E806001F049E0D0008FA40 /* Project object */;
+}

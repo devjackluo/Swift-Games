@@ -1,0 +1,6 @@
+framework module Pods_DogShip {
+  umbrella header "Pods-DogShip-umbrella.h"
+
+  export *
+  module * { export * }
+}
