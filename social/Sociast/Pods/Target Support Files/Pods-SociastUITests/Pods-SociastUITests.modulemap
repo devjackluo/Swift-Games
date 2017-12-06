@@ -1,0 +1,6 @@
+framework module Pods_SociastUITests {
+  umbrella header "Pods-SociastUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AFE192AC8C962DD139DE999 /* Pods_SociastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF2D94430D6A52E1651313D /* Pods_SociastUITests.framework */; };
+		4906D49E9AC1B21C3A75365E /* Pods_SociastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD278B4BD021D17634EA23FB /* Pods_SociastTests.framework */; };
+		599156A21F280CD000229AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156A11F280CD000229AEE /* AppDelegate.swift */; };
+		599156A41F280CD000229AEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156A31F280CD000229AEE /* ViewController.swift */; };
+		599156A91F280CD000229AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599156A81F280CD000229AEE /* Assets.xcassets */; };
+		599156AC1F280CD000229AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599156AA1F280CD000229AEE /* LaunchScreen.storyboard */; };
+		599156B71F280CD000229AEE /* SociastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156B61F280CD000229AEE /* SociastTests.swift */; };
+		599156C21F280CD000229AEE /* SociastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156C11F280CD000229AEE /* SociastUITests.swift */; };
+		599156D21F28105900229AEE /* Sociast.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599156D11F28105900229AEE /* Sociast.storyboard */; };
+		599156D61F28111700229AEE /* SociastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156D51F28111700229AEE /* SociastTableViewController.swift */; };
+		599156D81F28191500229AEE /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156D71F28191500229AEE /* FacebookViewController.swift */; };
+		599156DA1F281AAB00229AEE /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156D91F281AAB00229AEE /* InstagramViewController.swift */; };
+		599156DC1F281AC000229AEE /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156DB1F281AC000229AEE /* TwitterViewController.swift */; };
+		599156DE1F281ACF00229AEE /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156DD1F281ACF00229AEE /* YoutubeViewController.swift */; };
+		599156E01F281AD900229AEE /* ImgurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156DF1F281AD900229AEE /* ImgurViewController.swift */; };
+		599156E21F281AED00229AEE /* TwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156E11F281AED00229AEE /* TwitchViewController.swift */; };
+		599156E41F281AF900229AEE /* TumblrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156E31F281AF900229AEE /* TumblrViewController.swift */; };
+		599156E61F281B0700229AEE /* RedditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156E51F281B0700229AEE /* RedditViewController.swift */; };
+		599156E81F281B1400229AEE /* PinterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156E71F281B1400229AEE /* PinterestViewController.swift */; };
+		599156EA1F2826EA00229AEE /* AdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599156E91F2826EA00229AEE /* AdTableViewCell.swift */; };
+		599156EC1F28298700229AEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 599156EB1F28298700229AEE /* GoogleService-Info.plist */; };
+		599156EE1F2829AD00229AEE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599156ED1F2829AD00229AEE /* iAd.framework */; };
+		BBA43E9D3647CF618A159D21 /* Pods_Sociast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C707E84A496F603BAA9A6CF8 /* Pods_Sociast.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		599156B31F280CD000229AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 599156961F280CCF00229AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5991569D1F280CCF00229AEE;
+			remoteInfo = Sociast;
+		};
+		599156BE1F280CD000229AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 599156961F280CCF00229AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5991569D1F280CCF00229AEE;
+			remoteInfo = Sociast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0490AF64512ED2BC0A94FCD8 /* Pods-SociastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SociastUITests/Pods-SociastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		405FC7DC3BEE3F566DCB9F14 /* Pods-Sociast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sociast.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sociast/Pods-Sociast.release.xcconfig"; sourceTree = "<group>"; };
+		5991569E1F280CD000229AEE /* Sociast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sociast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		599156A11F280CD000229AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		599156A31F280CD000229AEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		599156A81F280CD000229AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		599156AB1F280CD000229AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		599156AD1F280CD000229AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599156B21F280CD000229AEE /* SociastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SociastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		599156B61F280CD000229AEE /* SociastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociastTests.swift; sourceTree = "<group>"; };
+		599156B81F280CD000229AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599156BD1F280CD000229AEE /* SociastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SociastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		599156C11F280CD000229AEE /* SociastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociastUITests.swift; sourceTree = "<group>"; };
+		599156C31F280CD000229AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599156D11F28105900229AEE /* Sociast.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sociast.storyboard; sourceTree = "<group>"; };
+		599156D51F28111700229AEE /* SociastTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SociastTableViewController.swift; sourceTree = "<group>"; };
+		599156D71F28191500229AEE /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		599156D91F281AAB00229AEE /* InstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		599156DB1F281AC000229AEE /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		599156DD1F281ACF00229AEE /* YoutubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
+		599156DF1F281AD900229AEE /* ImgurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgurViewController.swift; sourceTree = "<group>"; };
+		599156E11F281AED00229AEE /* TwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitchViewController.swift; sourceTree = "<group>"; };
+		599156E31F281AF900229AEE /* TumblrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrViewController.swift; sourceTree = "<group>"; };
+		599156E51F281B0700229AEE /* RedditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditViewController.swift; sourceTree = "<group>"; };
+		599156E71F281B1400229AEE /* PinterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestViewController.swift; sourceTree = "<group>"; };
+		599156E91F2826EA00229AEE /* AdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdTableViewCell.swift; sourceTree = "<group>"; };
+		599156EB1F28298700229AEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		599156ED1F2829AD00229AEE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5DE91CE0D5363C7D3D59740E /* Pods-Sociast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sociast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sociast/Pods-Sociast.debug.xcconfig"; sourceTree = "<group>"; };
+		648C08A0803F26781713569C /* Pods-SociastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociastUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SociastUITests/Pods-SociastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF2D94430D6A52E1651313D /* Pods_SociastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F36F5D35693EC90808886C /* Pods-SociastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociastTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SociastTests/Pods-SociastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C707E84A496F603BAA9A6CF8 /* Pods_Sociast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sociast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD278B4BD021D17634EA23FB /* Pods_SociastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F158C7FE7EF540BF66CA633F /* Pods-SociastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociastTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SociastTests/Pods-SociastTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5991569B1F280CCF00229AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599156EE1F2829AD00229AEE /* iAd.framework in Frameworks */,
+				BBA43E9D3647CF618A159D21 /* Pods_Sociast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599156AF1F280CD000229AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4906D49E9AC1B21C3A75365E /* Pods_SociastTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599156BA1F280CD000229AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFE192AC8C962DD139DE999 /* Pods_SociastUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599156951F280CCF00229AEE = {
+			isa = PBXGroup;
+			children = (
+				599156A01F280CD000229AEE /* Sociast */,
+				599156B51F280CD000229AEE /* SociastTests */,
+				599156C01F280CD000229AEE /* SociastUITests */,
+				5991569F1F280CD000229AEE /* Products */,
+				BB85965E904CFDB56767D45B /* Pods */,
+				F6D6F79893F4D37D870B3E06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5991569F1F280CD000229AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5991569E1F280CD000229AEE /* Sociast.app */,
+				599156B21F280CD000229AEE /* SociastTests.xctest */,
+				599156BD1F280CD000229AEE /* SociastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		599156A01F280CD000229AEE /* Sociast */ = {
+			isa = PBXGroup;
+			children = (
+				599156A11F280CD000229AEE /* AppDelegate.swift */,
+				599156A31F280CD000229AEE /* ViewController.swift */,
+				599156D11F28105900229AEE /* Sociast.storyboard */,
+				599156A81F280CD000229AEE /* Assets.xcassets */,
+				599156D51F28111700229AEE /* SociastTableViewController.swift */,
+				599156DB1F281AC000229AEE /* TwitterViewController.swift */,
+				599156DD1F281ACF00229AEE /* YoutubeViewController.swift */,
+				599156DF1F281AD900229AEE /* ImgurViewController.swift */,
+				599156D91F281AAB00229AEE /* InstagramViewController.swift */,
+				599156E31F281AF900229AEE /* TumblrViewController.swift */,
+				599156E91F2826EA00229AEE /* AdTableViewCell.swift */,
+				599156E11F281AED00229AEE /* TwitchViewController.swift */,
+				599156E51F281B0700229AEE /* RedditViewController.swift */,
+				599156D71F28191500229AEE /* FacebookViewController.swift */,
+				599156E71F281B1400229AEE /* PinterestViewController.swift */,
+				599156AA1F280CD000229AEE /* LaunchScreen.storyboard */,
+				599156EB1F28298700229AEE /* GoogleService-Info.plist */,
+				599156AD1F280CD000229AEE /* Info.plist */,
+			);
+			path = Sociast;
+			sourceTree = "<group>";
+		};
+		599156B51F280CD000229AEE /* SociastTests */ = {
+			isa = PBXGroup;
+			children = (
+				599156B61F280CD000229AEE /* SociastTests.swift */,
+				599156B81F280CD000229AEE /* Info.plist */,
+			);
+			path = SociastTests;
+			sourceTree = "<group>";
+		};
+		599156C01F280CD000229AEE /* SociastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				599156C11F280CD000229AEE /* SociastUITests.swift */,
+				599156C31F280CD000229AEE /* Info.plist */,
+			);
+			path = SociastUITests;
+			sourceTree = "<group>";
+		};
+		BB85965E904CFDB56767D45B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DE91CE0D5363C7D3D59740E /* Pods-Sociast.debug.xcconfig */,
+				405FC7DC3BEE3F566DCB9F14 /* Pods-Sociast.release.xcconfig */,
+				98F36F5D35693EC90808886C /* Pods-SociastTests.debug.xcconfig */,
+				F158C7FE7EF540BF66CA633F /* Pods-SociastTests.release.xcconfig */,
+				648C08A0803F26781713569C /* Pods-SociastUITests.debug.xcconfig */,
+				0490AF64512ED2BC0A94FCD8 /* Pods-SociastUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6D6F79893F4D37D870B3E06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599156ED1F2829AD00229AEE /* iAd.framework */,
+				C707E84A496F603BAA9A6CF8 /* Pods_Sociast.framework */,
+				CD278B4BD021D17634EA23FB /* Pods_SociastTests.framework */,
+				8AF2D94430D6A52E1651313D /* Pods_SociastUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5991569D1F280CCF00229AEE /* Sociast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599156C61F280CD000229AEE /* Build configuration list for PBXNativeTarget "Sociast" */;
+			buildPhases = (
+				F6513807368D995EBE3769D7 /* [CP] Check Pods Manifest.lock */,
+				5991569A1F280CCF00229AEE /* Sources */,
+				5991569B1F280CCF00229AEE /* Frameworks */,
+				5991569C1F280CCF00229AEE /* Resources */,
+				6E4EA4149BAE298AA1C0DAC4 /* [CP] Embed Pods Frameworks */,
+				AB6095F85F87A77A51BBA96B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sociast;
+			productName = Sociast;
+			productReference = 5991569E1F280CD000229AEE /* Sociast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		599156B11F280CD000229AEE /* SociastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599156C91F280CD000229AEE /* Build configuration list for PBXNativeTarget "SociastTests" */;
+			buildPhases = (
+				EDE8D292C565A53A9CE50506 /* [CP] Check Pods Manifest.lock */,
+				599156AE1F280CD000229AEE /* Sources */,
+				599156AF1F280CD000229AEE /* Frameworks */,
+				599156B01F280CD000229AEE /* Resources */,
+				05149FF714AF0F09555957B6 /* [CP] Embed Pods Frameworks */,
+				3F02809D6E9541172BA3512A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599156B41F280CD000229AEE /* PBXTargetDependency */,
+			);
+			name = SociastTests;
+			productName = SociastTests;
+			productReference = 599156B21F280CD000229AEE /* SociastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		599156BC1F280CD000229AEE /* SociastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599156CC1F280CD000229AEE /* Build configuration list for PBXNativeTarget "SociastUITests" */;
+			buildPhases = (
+				B5C38AD7F1B9D7636834BBBE /* [CP] Check Pods Manifest.lock */,
+				599156B91F280CD000229AEE /* Sources */,
+				599156BA1F280CD000229AEE /* Frameworks */,
+				599156BB1F280CD000229AEE /* Resources */,
+				BE0512EA216F98E0E9C0319D /* [CP] Embed Pods Frameworks */,
+				52A6914797E9717245859974 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599156BF1F280CD000229AEE /* PBXTargetDependency */,
+			);
+			name = SociastUITests;
+			productName = SociastUITests;
+			productReference = 599156BD1F280CD000229AEE /* SociastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		599156961F280CCF00229AEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zhaowen Luo";
+				TargetAttributes = {
+					5991569D1F280CCF00229AEE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4QV2382LDV;
+						ProvisioningStyle = Automatic;
+					};
+					599156B11F280CD000229AEE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4QV2382LDV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5991569D1F280CCF00229AEE;
+					};
+					599156BC1F280CD000229AEE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4QV2382LDV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5991569D1F280CCF00229AEE;
+					};
+				};
+			};
+			buildConfigurationList = 599156991F280CCF00229AEE /* Build configuration list for PBXProject "Sociast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 599156951F280CCF00229AEE;
+			productRefGroup = 5991569F1F280CD000229AEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5991569D1F280CCF00229AEE /* Sociast */,
+				599156B11F280CD000229AEE /* SociastTests */,
+				599156BC1F280CD000229AEE /* SociastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5991569C1F280CCF00229AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599156AC1F280CD000229AEE /* LaunchScreen.storyboard in Resources */,
+				599156A91F280CD000229AEE /* Assets.xcassets in Resources */,
+				599156D21F28105900229AEE /* Sociast.storyboard in Resources */,
+				599156EC1F28298700229AEE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599156B01F280CD000229AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599156BB1F280CD000229AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05149FF714AF0F09555957B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SociastTests/Pods-SociastTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F02809D6E9541172BA3512A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SociastTests/Pods-SociastTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A6914797E9717245859974 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SociastUITests/Pods-SociastUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E4EA4149BAE298AA1C0DAC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sociast/Pods-Sociast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6095F85F87A77A51BBA96B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sociast/Pods-Sociast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5C38AD7F1B9D7636834BBBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0512EA216F98E0E9C0319D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SociastUITests/Pods-SociastUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE8D292C565A53A9CE50506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6513807368D995EBE3769D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5991569A1F280CCF00229AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599156DC1F281AC000229AEE /* TwitterViewController.swift in Sources */,
+				599156E61F281B0700229AEE /* RedditViewController.swift in Sources */,
+				599156DE1F281ACF00229AEE /* YoutubeViewController.swift in Sources */,
+				599156D81F28191500229AEE /* FacebookViewController.swift in Sources */,
+				599156D61F28111700229AEE /* SociastTableViewController.swift in Sources */,
+				599156A41F280CD000229AEE /* ViewController.swift in Sources */,
+				599156A21F280CD000229AEE /* AppDelegate.swift in Sources */,
+				599156DA1F281AAB00229AEE /* InstagramViewController.swift in Sources */,
+				599156E21F281AED00229AEE /* TwitchViewController.swift in Sources */,
+				599156EA1F2826EA00229AEE /* AdTableViewCell.swift in Sources */,
+				599156E81F281B1400229AEE /* PinterestViewController.swift in Sources */,
+				599156E41F281AF900229AEE /* TumblrViewController.swift in Sources */,
+				599156E01F281AD900229AEE /* ImgurViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599156AE1F280CD000229AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599156B71F280CD000229AEE /* SociastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599156B91F280CD000229AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599156C21F280CD000229AEE /* SociastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		599156B41F280CD000229AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5991569D1F280CCF00229AEE /* Sociast */;
+			targetProxy = 599156B31F280CD000229AEE /* PBXContainerItemProxy */;
+		};
+		599156BF1F280CD000229AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5991569D1F280CCF00229AEE /* Sociast */;
+			targetProxy = 599156BE1F280CD000229AEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		599156AA1F280CD000229AEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599156AB1F280CD000229AEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		599156C41F280CD000229AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		599156C51F280CD000229AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599156C71F280CD000229AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE91CE0D5363C7D3D59740E /* Pods-Sociast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QV2382LDV;
+				INFOPLIST_FILE = Sociast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.Sociast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		599156C81F280CD000229AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405FC7DC3BEE3F566DCB9F14 /* Pods-Sociast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QV2382LDV;
+				INFOPLIST_FILE = Sociast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.Sociast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		599156CA1F280CD000229AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F36F5D35693EC90808886C /* Pods-SociastTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4QV2382LDV;
+				INFOPLIST_FILE = SociastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.SociastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sociast.app/Sociast";
+			};
+			name = Debug;
+		};
+		599156CB1F280CD000229AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F158C7FE7EF540BF66CA633F /* Pods-SociastTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4QV2382LDV;
+				INFOPLIST_FILE = SociastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.SociastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sociast.app/Sociast";
+			};
+			name = Release;
+		};
+		599156CD1F280CD000229AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648C08A0803F26781713569C /* Pods-SociastUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4QV2382LDV;
+				INFOPLIST_FILE = SociastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.SociastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sociast;
+			};
+			name = Debug;
+		};
+		599156CE1F280CD000229AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0490AF64512ED2BC0A94FCD8 /* Pods-SociastUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4QV2382LDV;
+				INFOPLIST_FILE = SociastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhaowenLuo.SociastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sociast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		599156991F280CCF00229AEE /* Build configuration list for PBXProject "Sociast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599156C41F280CD000229AEE /* Debug */,
+				599156C51F280CD000229AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599156C61F280CD000229AEE /* Build configuration list for PBXNativeTarget "Sociast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599156C71F280CD000229AEE /* Debug */,
+				599156C81F280CD000229AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599156C91F280CD000229AEE /* Build configuration list for PBXNativeTarget "SociastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599156CA1F280CD000229AEE /* Debug */,
+				599156CB1F280CD000229AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599156CC1F280CD000229AEE /* Build configuration list for PBXNativeTarget "SociastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599156CD1F280CD000229AEE /* Debug */,
+				599156CE1F280CD000229AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 599156961F280CCF00229AEE /* Project object */;
+}
